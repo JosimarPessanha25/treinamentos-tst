@@ -1,0 +1,7 @@
+<svg width="96" height="96" viewBox="0 0 96 96" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Treinamentos TST">
+  <rect width="96" height="96" rx="18" fill="#173D2E"/>
+  <path d="M48 13L77 28.5V67.5L48 83L19 67.5V28.5L48 13Z" fill="#F8FBF6" opacity=".96"/>
+  <path d="M48 24L67 34.3V61.7L48 72L29 61.7V34.3L48 24Z" fill="#197B55"/>
+  <path d="M44.2 39.2H51.8V47H59.4V54.2H51.8V62H44.2V54.2H36.6V47H44.2V39.2Z" fill="#FFFFFF"/>
+  <path d="M36 34.5L48 28L60 34.5" stroke="#D7A53B" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

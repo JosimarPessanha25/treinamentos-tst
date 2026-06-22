@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Sistema de Treinamentos TST | Cursos e Certificados</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="topbar">
+        <a class="brand" href="#" aria-label="Sistema de Treinamentos TST">
+          <img src="./assets/logo-tst.svg" alt="Plataforma TST" />
+          <span>
+            <strong>Treinamentos TST</strong>
+            <small>Cursos e Certificados</small>
+          </span>
+        </a>
+
+        <nav class="portal-switch" aria-label="Selecionar portal">
+          <button class="portal-button is-active" data-portal="student" type="button">
+            <span class="icon-dot"></span>
+            Aluno
+          </button>
+          <button class="portal-button" data-portal="admin" type="button">
+            <span class="icon-grid"></span>
+            Admin TST
+          </button>
+        </nav>
+
+        <div class="profile-pill">
+          <span class="avatar">MC</span>
+          <span>
+            <strong>Mariana Costa</strong>
+            <small>Operadora | Mat. 0842</small>
+          </span>
+        </div>
+      </header>
+
+      <main id="app" class="workspace" aria-live="polite"></main>
+    </div>
+
+    <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,31 @@
+<svg width="1280" height="720" viewBox="0 0 1280 720" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Treinamento de segurança operacional">
+  <rect width="1280" height="720" fill="#173D2E"/>
+  <rect y="458" width="1280" height="262" fill="#20362F"/>
+  <path d="M0 150C140 98 253 102 399 164C579 240 733 211 909 123C1036 59 1152 55 1280 93V0H0V150Z" fill="#2D5F9A" opacity=".38"/>
+  <path d="M0 310C137 253 297 256 448 321C626 398 745 375 900 292C1039 218 1170 215 1280 254V116C1155 78 1036 91 909 155C733 243 579 272 399 196C253 134 140 130 0 182V310Z" fill="#197B55" opacity=".55"/>
+  <rect x="90" y="140" width="282" height="318" rx="8" fill="#F8FBF6"/>
+  <rect x="116" y="178" width="230" height="30" rx="4" fill="#D7A53B"/>
+  <rect x="116" y="230" width="198" height="14" rx="7" fill="#B8C7BF"/>
+  <rect x="116" y="262" width="156" height="14" rx="7" fill="#B8C7BF"/>
+  <rect x="116" y="294" width="210" height="14" rx="7" fill="#B8C7BF"/>
+  <circle cx="188" cy="372" r="42" fill="#197B55"/>
+  <path d="M166 372.5L181.5 388L211 356" stroke="white" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="770" y="300" width="306" height="114" rx="14" fill="#D7A53B"/>
+  <rect x="815" y="232" width="162" height="86" rx="8" fill="#ECEEEA"/>
+  <rect x="855" y="186" width="82" height="62" rx="8" fill="#F8FBF6"/>
+  <path d="M887 186L876 147H917L906 186H887Z" fill="#D7A53B"/>
+  <rect x="720" y="396" width="422" height="52" rx="10" fill="#F8FBF6"/>
+  <circle cx="825" cy="466" r="54" fill="#0F2920"/>
+  <circle cx="1070" cy="466" r="54" fill="#0F2920"/>
+  <circle cx="825" cy="466" r="24" fill="#B8C7BF"/>
+  <circle cx="1070" cy="466" r="24" fill="#B8C7BF"/>
+  <rect x="638" y="168" width="62" height="304" rx="6" fill="#B8C7BF"/>
+  <rect x="618" y="456" width="108" height="22" rx="4" fill="#B8C7BF"/>
+  <path d="M669 168H1015C1082 168 1136 222 1136 289V316" stroke="#B8C7BF" stroke-width="26" stroke-linecap="round"/>
+  <path d="M1015 168V414" stroke="#B8C7BF" stroke-width="18" stroke-linecap="round"/>
+  <rect x="956" y="402" width="118" height="25" rx="5" fill="#B8C7BF"/>
+  <path d="M688 514H1194" stroke="#D7A53B" stroke-width="18" stroke-linecap="round" stroke-dasharray="44 30"/>
+  <path d="M104 552H504" stroke="#F8FBF6" stroke-width="16" stroke-linecap="round" opacity=".9"/>
+  <path d="M104 592H421" stroke="#F8FBF6" stroke-width="16" stroke-linecap="round" opacity=".62"/>
+  <path d="M104 632H312" stroke="#F8FBF6" stroke-width="16" stroke-linecap="round" opacity=".44"/>
+</svg>
