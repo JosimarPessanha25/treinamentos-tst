@@ -29,8 +29,10 @@ Como configurar no Supabase:
     .header-title { color: #ffffff; font-size: 20px; font-weight: bold; margin-top: 10px; letter-spacing: 0.5px; }
     .content { padding: 40px 30px; line-height: 1.6; }
     .greeting { font-size: 18px; font-weight: bold; color: #17211d; margin-bottom: 20px; }
-    .text { font-size: 15px; color: #555555; margin-bottom: 20px; }
-    .otp-box { background-color: #f0fdf4; border: 2px dashed #197b55; border-radius: 8px; padding: 20px; font-size: 32px; font-weight: 800; text-align: center; letter-spacing: 6px; color: #197b55; margin: 30px auto; max-width: 240px; box-shadow: 0 4px 12px rgba(25, 123, 85, 0.05); }
+    .text { font-size: 15px; color: #555555; margin-bottom: 30px; }
+    .btn-wrap { text-align: center; margin: 35px 0; }
+    .btn { background-color: #197b55; color: #ffffff !important; text-decoration: none; padding: 14px 28px; font-size: 15px; font-weight: bold; border-radius: 6px; display: inline-block; box-shadow: 0 4px 6px rgba(25, 123, 85, 0.2); }
+    .btn:hover { background-color: #156546; }
     .footer { background-color: #f9fafb; padding: 25px 30px; text-align: center; border-top: 1px solid #eeeeee; font-size: 12px; color: #888888; }
   </style>
 </head>
@@ -45,13 +47,14 @@ Como configurar no Supabase:
         <div class="greeting">Olá!</div>
         <div class="text">
           Seja bem-vindo ao <strong>Sistema de Treinamentos TST</strong>.<br><br>
-          Seu código de confirmação de cadastro é:
+          Para confirmar seu cadastro e ativar sua conta, clique no botão abaixo:
         </div>
-        <div class="otp-box">
-          {{ .Token }}
+        <div class="btn-wrap">
+          <a href="{{ .ConfirmationURL }}" class="btn">Confirmar Cadastro</a>
         </div>
         <div class="text" style="font-size: 13px; color: #888; text-align: center; margin-top: 20px;">
-          Insira este código de 6 dígitos no portal para confirmar seu cadastro.
+          Se o botão acima não funcionar, copie e cole o seguinte link no seu navegador:<br>
+          <a href="{{ .ConfirmationURL }}" style="color: #197b55; word-break: break-all;">{{ .ConfirmationURL }}</a>
         </div>
       </div>
       <div class="footer">

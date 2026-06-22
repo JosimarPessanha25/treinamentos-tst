@@ -342,8 +342,8 @@ window.handleRegister = async function () {
     render();
   } else {
     registeredEmail = email;
-    authSuccess = "Cadastro realizado! Insira o código de 6 dígitos enviado para seu e-mail.";
-    authState = "otp";
+    authSuccess = "Cadastro realizado! Por favor, verifique seu e-mail e clique no link de confirmação para ativar sua conta.";
+    authState = "login";
     isLoading = false;
     render();
   }
